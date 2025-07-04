@@ -11,6 +11,8 @@ export interface IGenre {
     id: number,
     name: string
 }
+
 export interface ThumbSwiperProps {
   movies: IMovie[];
+  setThumbsSwiper: (swiper: any) => void;
 }
